@@ -1,0 +1,24 @@
+ol li a time,
+ol li a p,
+ol li span time,
+ol li span p,
+time.zeta {
+    font-size: 90% !important;
+}
+
+.page.js-page {
+    max-width: 5000px !important;
+}
+
+li.four-ninths {
+    max-width: 16.66% !important;
+}
+
+div.sport-logo {
+    border: 0px !important;
+}
+
+.sport-logo>img {
+    width: initial !important;
+    height: initial !important;
+}
