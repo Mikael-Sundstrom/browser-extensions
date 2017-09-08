@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Thriller darker",
+  "theme": {
+    "images": {
+      "theme_frame": "x80_000000.png",
+      "theme_toolbar": "x80_202020.png",
+      "theme_tab_background": "x80_404040.png"
+    },
+    "colors": {
+      "frame": [
+        222,
+        222,
+        222
+      ],
+      "tab_text": [
+        250,
+        250,
+        250
+      ],
+      "tab_background_text": [
+        140,
+        140,
+        140
+      ],
+      "bookmark_text": [
+        140,
+        140,
+        140
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0,
+        0,
+        0.75
+      ]
+    }
+  }
+}

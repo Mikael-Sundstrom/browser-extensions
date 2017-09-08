@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Thriller lighter",
+  "theme": {
+    "images": {
+      "theme_frame": "x80_ffffff.png",
+      "theme_toolbar": "x80_dfdfdf.png",
+      "theme_tab_background": "x80_efefef.png"
+    },
+    "colors": {
+      "frame": [
+        16,
+        16,
+        16
+      ],
+      "tab_text": [
+        100,
+        100,
+        100
+      ],
+      "tab_background_text": [
+        180,
+        180,
+        180
+      ],
+      "bookmark_text": [
+        140,
+        140,
+        140
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0,
+        0,
+        0.7
+      ]
+    }
+  }
+}
