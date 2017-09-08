@@ -1,23 +1,30 @@
 {
-    "manifest_version": 2,
-
-    "name": "Fotbollskanalen Genväg",
-    "description": "Det här tillägget skapar en genväg till fotbollskanalens hemsida.",
-    "version": "1.0",
-    "icons": {
-        "32": "32.png",
-        "96": "96.png",
-        "128": "128.png"
-    },
-    "browser_action": {
-        "default_icon": "96.png",
-        "default_title": "Öppna i ny flik"
-    },
-    "background": {
-        "scripts": ["background.js"]
-    },
-    "content_scripts": [{
-        "matches": ["https://www.fotbollskanalen.se/*"],
-        "css": ["style.css"]
-    }]
+  "manifest_version": 2,
+  "name": "Fotbollskanalen Genväg",
+  "description": "Det här tillägget skapar en genväg till fotbollskanalens hemsida.",
+  "version": "1.1",
+  "icons": {
+    "32": "32.png",
+    "96": "96.png",
+    "128": "128.png"
+  },
+  "browser_action": {
+    "default_icon": "96.png",
+    "default_title": "Öppna i ny flik"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.fotbollskanalen.se/*"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
 }
