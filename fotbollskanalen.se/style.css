@@ -1,4 +1,74 @@
 section#article-main,
-.main-content {
+.main-content
+{
     width: 100% !important;
+}
+
+.article-tags
+{
+  margin-top: 40px !important;
+}
+
+.article-tags__text,
+.module-header__titles h3.title__sub,
+.social-text,
+h3.global-search__header
+{
+  display: none !important;
+}
+
+.social-share-module
+{
+  padding-bottom: 0 !important;
+}
+.landing__banner.landing__banner--league {
+  padding: 0 3.125%;
+  height: 200px;
+}
+.global-search__inner
+{
+  padding-top: 8px !important;
+}
+
+.video-page__side-info,
+div.top-item,
+div.teaser-item,
+.league-bookmark-container,
+.video-page__main-content,
+.comment-area,
+.ordered-news,
+.notice,
+.latest-news,
+div#personalization-show,
+.myfeed-header,
+.myfeed-article,
+.video-list-solid__item,
+.tabs,
+.page-header,
+.sidebar__content,
+.blogg__content {
+  box-shadow: 0 3px 0 rgba(0,0,0,0.05) !important;
+}
+
+.video-list-module,
+.todays-live,
+.blog-item,
+.todays-result,
+div#my-matchresults-list,
+ul.match-list__group-list
+{
+  box-shadow: 0 3px 0 rgba(0,0,0,0.5) !important;
+}
+
+
+section#globalSearch {
+  width: 480px !important;
+  top: 72px !important;
+  left: 579px !important;
+  max-height: 400px !important;
+  min-height: 516px !important;
+}
+
+.standard .global-search .global-search__inner{
+  max-height: 100% !important;
 }

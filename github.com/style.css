@@ -1,0 +1,305 @@
+html body {
+  background-color: #1A1A1A !important;
+  color: #CCC !important; }
+  html body > div > header {
+    background-color: #080808 !important;
+    border-bottom: solid 1px #2E2E2E !important; }
+    html body > div > header ul li a {
+      color: #CCC !important; }
+      html body > div > header ul li a:hover {
+        color: #fff !important; }
+  html body a {
+    color: #63b6ff !important; }
+    html body a svg.octicon {
+      color: #CCC !important; }
+    html body a:hover {
+      color: #53a6ff !important; }
+      html body a:hover svg.octicon {
+        color: #fff !important; }
+
+div#dashboard {
+  /* Sidebar */ }
+  div#dashboard div.news button {
+    background-image: linear-gradient(-180deg, #404142 0%, #303030 90%) !important;
+    color: #CCC !important;
+    border-color: #444444 !important;
+    border-radius: 2px !important; }
+    div#dashboard div.news button:hover {
+      background: linear-gradient(-180deg, #3e3f40 0%, #2e2e2e 90%) !important; }
+  div#dashboard div.news div.alert {
+    border-color: #444444 !important; }
+    div#dashboard div.news div.alert svg.octicon {
+      color: #CCC !important; }
+    div#dashboard div.news div.alert div.simple div.title {
+      color: #CCC !important; }
+  div#dashboard div.dashboard-sidebar div.boxed-group {
+    border-radius: 2px !important; }
+    div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-action a {
+      color: #e6e6e6 !important;
+      border-radius: 2px !important; }
+    div#dashboard div.dashboard-sidebar div.boxed-group h3 {
+      background-image: linear-gradient(-180deg, #404142 0%, #303030 90%) !important;
+      color: #e6e6e6 !important;
+      border-color: #444444 !important;
+      border-radius: 2px 2px 0 0 !important; }
+    div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner {
+      background-color: #2F2F2F !important;
+      border-color: #444444 !important; }
+      div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner div.filter-repos {
+        background-color: #2F2F2F !important;
+        border-color: #444444 !important; }
+        div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner div.filter-repos input#your-repos-filter {
+          background-color: #565656 !important;
+          color: #e6e6e6 !important;
+          border-color: #5e5e5e !important;
+          border-radius: 2px; }
+          div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner div.filter-repos input#your-repos-filter:focus {
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.75) !important; }
+          div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner div.filter-repos input#your-repos-filter::-webkit-input-placeholder {
+            color: #e6e6e6 !important; }
+        div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner div.filter-repos ul.repo-filterer li a {
+          color: #e6e6e6 !important;
+          border-color: transparent !important; }
+          div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner div.filter-repos ul.repo-filterer li a.filter-selected {
+            border-color: #e36209 !important; }
+      div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner ul li a {
+        border-color: #444444 !important; }
+        div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner ul li a.mini-repo-list-item {
+          background-color: #2F2F2F !important; }
+      div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner button {
+        background-image: linear-gradient(-180deg, #404142 0%, #303030 90%) !important;
+        color: #CCC !important; }
+        div#dashboard div.dashboard-sidebar div.boxed-group div.boxed-group-inner button:hover {
+          background: linear-gradient(-180deg, #3e3f40 0%, #2e2e2e 90%) !important; }
+
+div#readme {
+  color: #e6e6e6;
+  border: solid 1px #595959 !important;
+  border-radius: 2px !important; }
+  div#readme svg.octicon {
+    color: #fff; }
+  div#readme > h3 {
+    background-color: #303030 !important;
+    background-image: linear-gradient(-180deg, #404142 0%, #303030 90%) !important;
+    border: 0 !important;
+    border-radius: 2px 2px 0 0 !important; }
+  div#readme article.markdown-body {
+    background-color: #464646 !important;
+    border-color: #484848 !important;
+    border-radius: 0 0 2px 2px !important; }
+    div#readme article.markdown-body h1 {
+      border-color: #BFBFBF !important; }
+    div#readme article.markdown-body table thead tr {
+      background-color: #2F2F2F !important; }
+      div#readme article.markdown-body table thead tr th {
+        border-color: #595959 !important; }
+    div#readme article.markdown-body table tbody tr {
+      background-color: #464646 !important; }
+      div#readme article.markdown-body table tbody tr:nth-child(2n) {
+        background-color: #565656 !important; }
+      div#readme article.markdown-body table tbody tr td {
+        border-color: #666666 !important; }
+    div#readme article.markdown-body pre {
+      background-color: #2F2F2F !important;
+      border: solid 1px #595959 !important;
+      border-radius: 2px !important; }
+
+/*!
+ * GitHub Dark v0.5.0
+ * Copyright (c) 2012 - 2017 GitHub, Inc.
+ * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
+ */
+div.file,
+div.file div.file-header {
+  border-color: #333 !important; }
+
+.data::-webkit-scrollbar-button {
+  display: none; }
+
+.data::-webkit-scrollbar-track {
+  border-color: #222324; }
+
+div.file div.file-header {
+  background-color: #121212 !important; }
+
+.blob-wrapper.data {
+  background-color: #222324 !important; }
+
+/* Line numbers & Precode color */
+div.file div.file-header,
+td.blob-code-inner,
+td.blob-num {
+  color: #cdcdcd !important; }
+
+.highlighted {
+  background-color: #404040 !important;
+  box-shadow: inset -1px 0 0 1px rgba(107, 111, 115, 0.15); }
+
+button.btn-octicon {
+  background-color: #404040 !important;
+  border-color: rgba(107, 111, 115, 0.15) !important;
+  border-radius: 2px !important; }
+
+.pl-c {
+  color: #959da5 !important; }
+
+.pl-c1,
+.pl-s .pl-v {
+  color: #c8e1ff !important; }
+
+.pl-e,
+.pl-en {
+  color: #b392f0 !important; }
+
+.pl-smi,
+.pl-s .pl-s1 {
+  color: #f6f8fa !important; }
+
+.pl-ent {
+  color: #7bcc72 !important; }
+
+.pl-k {
+  color: #ea4a5a !important; }
+
+.pl-s,
+.pl-pds,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sre,
+.pl-sr .pl-sra {
+  color: #79b8ff !important; }
+
+.pl-v,
+.pl-ml {
+  color: #fb8532 !important; }
+
+.pl-bu {
+  color: #d73a49 !important; }
+
+.pl-ii {
+  color: #fafbfc !important;
+  background-color: #d73a49 !important; }
+
+.pl-c2 {
+  color: #fafbfc !important;
+  background-color: #d73a49 !important; }
+
+.pl-c2::before {
+  content: "^M" !important; }
+
+.pl-sr .pl-cce {
+  font-weight: bold !important;
+  color: #7bcc72 !important; }
+
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+  font-weight: bold !important;
+  color: #0366d6 !important; }
+
+.pl-mi {
+  font-style: italic !important;
+  color: #f6f8fa !important; }
+
+.pl-mb {
+  font-weight: bold !important;
+  color: #f6f8fa !important; }
+
+.pl-md {
+  color: #b31d28 !important;
+  background-color: #ffeef0 !important; }
+
+.pl-mi1 {
+  color: #176f2c !important;
+  background-color: #f0fff4 !important; }
+
+.pl-mc {
+  color: #b08800 !important;
+  background-color: #fffdef !important; }
+
+.pl-mi2 {
+  color: #2f363d !important;
+  background-color: #959da5 !important; }
+
+.pl-mdr {
+  font-weight: bold !important;
+  color: #b392f0 !important; }
+
+.pl-mo {
+  color: #0366d6 !important; }
+
+.pl-ba {
+  color: #ffeef0 !important; }
+
+.pl-sg {
+  color: #6a737d !important; }
+
+.pl-corl {
+  text-decoration: underline !important;
+  color: #79b8ff !important; }
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px; }
+
+::-webkit-scrollbar-track {
+  background: #2F2F2F;
+  border: solid 3px #1A1A1A; }
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: #464646; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #565656; }
+
+::-webkit-scrollbar-thumb:vertical {
+  border-top: solid 2px rgba(33, 33, 33, 0.5);
+  border-bottom: solid 2px rgba(33, 33, 33, 0.5); }
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-right: solid 2px rgba(33, 33, 33, 0.5);
+  border-left: solid 2px rgba(33, 33, 33, 0.5); }
+
+/* Buttons */
+::-webkit-scrollbar-button {
+  border-style: solid;
+  height: 14px;
+  width: 14px; }
+
+/* Right */
+::-webkit-scrollbar-button:horizontal:increment {
+  border-width: 7px 0 7px 14px;
+  border-color: transparent transparent transparent #464646; }
+
+::-webkit-scrollbar-button:horizontal:increment:hover {
+  border-color: transparent transparent transparent #565656; }
+
+/* Left */
+::-webkit-scrollbar-button:horizontal:decrement {
+  border-width: 7px 14px 7px 0;
+  border-color: transparent #464646 transparent transparent; }
+
+::-webkit-scrollbar-button:horizontal:decrement:hover {
+  border-color: transparent #565656 transparent transparent; }
+
+/* Down */
+::-webkit-scrollbar-button:vertical:increment {
+  border-width: 14px 7px 0 7px;
+  border-color: #464646 transparent transparent transparent; }
+
+::-webkit-scrollbar-button:vertical:increment:hover {
+  border-color: #565656 transparent transparent transparent; }
+
+/* Up */
+::-webkit-scrollbar-button:vertical:decrement {
+  border-width: 0 7px 14px 7px;
+  border-color: transparent transparent #464646 transparent; }
+
+::-webkit-scrollbar-button:vertical:decrement:hover {
+  border-color: transparent transparent #565656 transparent; }
+
+button.btn-link.reponav-item.reponav-dropdown.js-menu-target {
+  background: inherit !important;
+  border: inherit; }

@@ -1,0 +1,66 @@
+header.orghead,
+header.orghead a.edit-org,
+table.files tr td,
+div.commit-tease,
+div.file-wrap,
+div.pagehead,
+div.news div.alert,
+div.overall-summary,
+div.repository-lang-stats-graph,
+a.social-count
+{
+  border-color: $border-dark !important;
+}
+
+button,
+.btn
+{
+  border-color: lighten($border-dark,10%) !important;
+}
+
+a.reponav-item.selected,
+a.pagehead-tabs-item.selected
+{
+  border-color: #e36209 $border-dark transparent !important;
+}
+/*
+input,
+.btn,
+.ajax-pagination-form .ajax-pagination-btn,
+.dropdown-menu,
+.overall-summary,
+.file,
+.file-header,
+.pagehead,
+.Label--outline,
+.user-profile-nav,
+.orghead
+
+
+.news .alert,
+.boxed-group-inner,
+.mini-repo-list-item,
+.news .alert,
+.boxed-group
+{
+  border-color: #303030 !important;
+}
+
+.repository-lang-stats-graph
+{
+  border-color: #404040 !important;
+}
+
+.more-repos
+{
+  box-shadow: inset 0 1px 0 #212121 !important;
+  border-color: #212121 !important;
+}
+
+
+
+.dropdown-menu::after
+{
+  border-bottom-color: #404040 !important;
+}
+ */

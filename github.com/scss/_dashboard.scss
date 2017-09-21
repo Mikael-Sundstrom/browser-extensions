@@ -1,0 +1,139 @@
+div#dashboard
+{
+  div.news
+  {
+    button
+    {
+      background-image: $background-gradient !important;
+      color: $color !important;
+      border-color: $border-middle !important;
+      border-radius: 2px !important;
+
+      &:hover
+      {
+        background: $background-gradient-hover !important;
+      }
+    }
+
+    div.alert
+    {
+      border-color: $border-middle !important;
+
+      svg.octicon
+      {
+        color: $color !important;
+      }
+
+      div.simple
+      {
+        div.title
+        {
+          color: $color !important;
+        }
+      }
+    }
+  }
+
+
+
+
+  /* Sidebar */
+  div.dashboard-sidebar
+  {
+    div.boxed-group
+    {
+      border-radius: 2px !important;
+
+      div.boxed-group-action
+      {
+        a
+        {
+          color: lighten($color,10%) !important;
+          border-radius: 2px !important;
+        }
+      }
+
+      h3
+      {
+        background-image: $background-gradient !important;
+        color: lighten($color,10%) !important;
+        border-color: $border-middle !important;
+        border-radius: 2px 2px 0 0 !important;
+      }
+
+      div.boxed-group-inner
+      {
+        background-color: $background-color-2 !important;
+        border-color: $border-middle !important;
+
+        div.filter-repos
+        {
+          background-color: $background-color-2 !important;
+          border-color: $border-middle !important;
+
+          input#your-repos-filter
+          {
+            background-color: $background-color-4 !important;
+            color: lighten($color,10%) !important;
+            border-color: lighten($border-middle,10%) !important;
+            border-radius: 2px;
+
+            &:focus
+            {
+              box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.75) !important;
+            }
+
+            &::-webkit-input-placeholder
+            {
+              color: lighten($color,10%) !important;
+            }
+          }
+
+          ul.repo-filterer
+          {
+            li
+            {
+              a
+              {
+                color: lighten($color,10%) !important;
+                border-color: transparent !important;
+
+                &.filter-selected
+                {
+                  border-color: #e36209 !important;
+                }
+              }
+            }
+          }
+        }
+
+        ul
+        {
+          li
+          {
+            a
+            {
+              border-color: $border-middle !important;
+
+              &.mini-repo-list-item
+              {
+                background-color: $background-color-2 !important;
+              }
+            }
+          }
+        }
+
+        button
+        {
+          background-image: $background-gradient !important;
+          color: $color !important;
+
+          &:hover
+          {
+            background: $background-gradient-hover !important;
+          }
+        }
+      }
+    }
+  }
+}

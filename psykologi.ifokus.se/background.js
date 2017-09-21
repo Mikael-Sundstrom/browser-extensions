@@ -1,10 +1,12 @@
 function goToLink() {
-  chrome.tabs.create({
-    url: getUrl()
-  });
+  chrome.tabs.create(
+    {
+      url: getUrl()
+    }
+  );
 
   function getUrl() {
-    return "https://www.fotbollskanalen.se/";
+    return "http://psykologi.ifokus.se/";
   }
 };
 chrome.browserAction.onClicked.addListener(goToLink);

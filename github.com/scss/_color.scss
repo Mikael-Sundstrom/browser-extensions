@@ -1,0 +1,42 @@
+/* Font colors */
+/*
+.footer a,
+.ajax-pagination-btn,
+a.social-count,
+.news .alert .simple .title,
+.repohead h1,
+.repohead h1.private .octicon,
+.Label--outline,
+.mini-repo-list-item .repo-icon,
+.mini-repo-list-item .stars,
+.Counter
+*/
+
+button,
+.btn
+{
+  color: $secondary !important;
+}
+
+button:hover,
+.btn:hover
+{
+  color: lighten($secondary,20%) !important;
+}
+
+/* Links */
+a
+{
+  color: #63b6ff !important;
+}
+
+a:hover
+{
+  color: #53a6ff !important;
+}
+
+header.Header a
+{
+  color: lighten($secondary,13%) !important;
+}
+

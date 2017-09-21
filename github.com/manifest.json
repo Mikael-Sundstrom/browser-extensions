@@ -1,17 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Fotbollskanalen Genväg",
+  "name": "GitHub Darker",
   "author": "Mikael Sundström",
-  "description": "Det här tillägget skapar en genväg till fotbollskanalens hemsida.",
-  "version": "1.2",
+  "description": "This extension create a shortcut and gives github a dark layout.",
+  "version": "1.0",
   "icons": {
-    "32": "32.png",
-    "96": "96.png",
+    "32": "128.png",
+    "96": "128.png",
     "128": "128.png"
   },
   "browser_action": {
-    "default_icon": "96.png",
-    "default_title": "Öppna i ny flik"
+    "default_icon": "128.png",
+    "default_title": "Open in new tab"
   },
   "background": {
     "scripts": [
@@ -21,7 +21,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.fotbollskanalen.se/*"
+        "*://*.github.com/*"
       ],
       "css": [
         "style.css"

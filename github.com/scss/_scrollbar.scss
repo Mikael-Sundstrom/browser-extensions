@@ -1,0 +1,94 @@
+::-webkit-scrollbar
+{
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: $background-color-2;
+  border: solid 3px $background-color-1;
+}
+
+
+/* Thumb */
+::-webkit-scrollbar-thumb
+{
+  background: $background-color-3;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: $background-color-4;
+}
+
+::-webkit-scrollbar-thumb:vertical
+{
+  border-top: solid 2px rgba(33,33,33,0.5);
+  border-bottom: solid 2px rgba(33,33,33,0.5);
+}
+
+::-webkit-scrollbar-thumb:horizontal
+{
+  border-right: solid 2px rgba(33,33,33,0.5);
+  border-left: solid 2px rgba(33,33,33,0.5);
+}
+
+
+/* Buttons */
+::-webkit-scrollbar-button {
+  border-style: solid;
+  height: 14px;
+  width: 14px;
+}
+
+/* Right */
+::-webkit-scrollbar-button:horizontal:increment
+{
+  border-width: 7px 0 7px 14px;
+  border-color: transparent transparent transparent $background-color-3;
+}
+
+::-webkit-scrollbar-button:horizontal:increment:hover
+{
+  border-color: transparent transparent transparent $background-color-4;
+}
+
+
+/* Left */
+::-webkit-scrollbar-button:horizontal:decrement
+{
+  border-width: 7px 14px 7px 0;
+  border-color: transparent $background-color-3 transparent transparent;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:hover
+{
+  border-color: transparent $background-color-4 transparent transparent;
+}
+
+
+/* Down */
+::-webkit-scrollbar-button:vertical:increment
+{
+  border-width: 14px 7px 0 7px;
+  border-color: $background-color-3 transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:increment:hover
+{
+  border-color: $background-color-4 transparent transparent transparent;
+}
+
+
+/* Up */
+::-webkit-scrollbar-button:vertical:decrement
+{
+  border-width: 0 7px 14px 7px;
+  border-color: transparent transparent $background-color-3 transparent;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover
+{
+  border-color: transparent transparent $background-color-4 transparent;
+}

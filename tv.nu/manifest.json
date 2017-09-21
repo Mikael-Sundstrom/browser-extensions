@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "TV.NU Genväg",
+  "author": "Mikael Sundström",
   "description": "Det här tillägget skapar en genväg till tv.nu:s hemsida.",
   "version": "1.2",
   "icons": {

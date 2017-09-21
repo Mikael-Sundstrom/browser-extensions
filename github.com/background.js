@@ -1,10 +1,6 @@
 function goToLink() {
   chrome.tabs.create({
-    url: getUrl()
+    url: "https://github.com/"
   });
-
-  function getUrl() {
-    return "https://www.fotbollskanalen.se/";
-  }
 };
 chrome.browserAction.onClicked.addListener(goToLink);

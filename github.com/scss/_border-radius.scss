@@ -1,0 +1,40 @@
+/* Border radius */
+
+a.btn.btn-sm.js-update-url-with-hash.BtnGroup-item
+{
+  border-radius: 0px !important;
+}
+
+input,
+.btn,
+.ajax-pagination-form .ajax-pagination-btn
+.boxed-group,
+.select-menu-modal,
+.dropdown-menu,
+.file
+{
+  border-radius: 2px !important;
+}
+
+.boxed-group>h3,
+.boxed-group .heading,
+.overall-summary,
+.reponav-item
+{
+  /* 0 to bottom */
+  border-radius: 2px 2px 0px 0px !important;
+}
+
+.btn-with-count,
+.BtnGroup-item:first-child
+{
+  /* 0 to right */
+  border-radius: 2px 0 0 2px !important;
+}
+
+a.social-count,
+.BtnGroup-item:last-child
+{
+  /* 0 to left */
+  border-radius: 0 2px 2px 0 !important;
+}

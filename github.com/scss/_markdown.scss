@@ -1,0 +1,72 @@
+div#readme
+{
+  color: lighten($color,10%);
+  border: solid 1px darken($border-light,40%) !important;
+  border-radius: 2px !important;
+
+  svg.octicon
+  {
+    color: #fff;
+  }
+
+  >h3
+  {
+    background-color: #303030 !important;
+    background-image: $background-gradient !important;
+    border: 0 !important;
+    border-radius: 2px 2px 0 0 !important;
+  }
+
+  article.markdown-body
+  {
+    background-color: $background-color-3 !important;
+    border-color: lighten($border-dark,10%) !important;
+    border-radius: 0 0 2px 2px !important;
+
+    h1
+    {
+      border-color: $border-light !important;
+    }
+
+    table
+    {
+      thead
+      {
+        tr
+        {
+          background-color: $background-color-2 !important;
+
+          th
+          {
+            border-color: darken($border-light,40%) !important;
+          }
+        }
+      }
+
+      tbody
+      {
+        tr
+        {
+          background-color: $background-color-3 !important;
+
+          &:nth-child(2n)
+          {
+            background-color: $background-color-4 !important;
+          }
+
+          td
+          {
+            border-color: darken($border-light,35%) !important;
+          }
+        }
+      }
+    }
+
+    pre
+    {
+      background-color: $background-color-2 !important;
+      border: solid 1px darken($border-light,40%) !important;
+      border-radius: 2px !important;
+    }
+  }
+}

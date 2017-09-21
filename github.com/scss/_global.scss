@@ -1,0 +1,50 @@
+html
+{
+  body
+  {
+    background-color: $background-color-1 !important;
+    color: $color !important;
+
+    >div>header
+    {
+      background-color: $background-color-0 !important;
+      border-bottom: solid 1px $border-dark !important;
+
+      ul
+      {
+        li
+        {
+          a
+          {
+            color: $color !important;
+
+            &:hover
+            {
+              color: #fff !important;
+            }
+          }
+        }
+      }
+    }
+
+    a
+    {
+      color: #63b6ff !important;
+
+      svg.octicon
+      {
+        color: $color !important;
+      }
+
+      &:hover
+      {
+        color: #53a6ff !important;
+
+        svg.octicon
+        {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}

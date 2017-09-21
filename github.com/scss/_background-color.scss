@@ -1,0 +1,52 @@
+/* header.Header
+{
+  background-color: darken($primary,6%) !important;
+}
+
+header.orghead,
+div.pagehead,
+div.repohead.experiment-repo-nav,
+div.overall-summary
+{
+  background-color: $background-color-0;
+}
+
+body,
+header.orghead a.edit-org,
+a.reponav-item.selected,
+a.pagehead-tabs-item.selected,
+a.social-count
+{
+  background-color: $background-color-1 !important;
+}
+
+div.commit-tease
+{
+  background-color: $background-color-2 !important;
+}
+
+table.files,
+div.commit-tease-contributors
+{
+  background-color: $background-color-3 !important;
+}
+
+table.files tr.navigation-focus td
+{
+  background-color: $background-color-4 !important;
+}
+
+s.heading
+{
+  background-color: $thirdly !important;
+}
+
+button,
+.btn,
+div.table-list-header
+{
+  background-color: #303030 !important;
+  background-image: $background-gradient !important;
+}
+
+ */

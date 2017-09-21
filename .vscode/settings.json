@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/css": false,
+    "**/.sass-cache": false,
+    "**/favicon.ico": true
+  }
+}
