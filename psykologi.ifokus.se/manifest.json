@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "iFokus.se Psykologi",
   "author": "Mikael Sundström",
-  "description": "This extension create a shortcut and gives psykologi.ifokus.se a dark layout.",
+  "description": "Det här tillägget skapar en genväg till psykologi.ifokus.se med en mörk layout.",
   "version": "1.0",
   "icons": {
     "32": "50.png",
@@ -21,7 +21,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.ifokus.se/*"
+        "*://psykologi.ifokus.se/*"
       ],
       "css": [
         "style.css"
