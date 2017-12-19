@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Startsida",
+    "author": "Mikael Sundström",
+    "description": "Genväg till startsida.",
+    "version": "1.0",
+    "icons": {
+        "32": "32.png",
+        "96": "96.png",
+        "128": "128.png"
+    },
+    "browser_action": {
+        "default_icon": "96.png",
+        "default_title": "Öppna i ny flik"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mikael-sundstrom.github.io/startpage"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}
