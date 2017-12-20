@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Code Anywhere Shortcut",
+	"version": "1.0",
+	"description": "Just a simple shortcut to Code Anywhere. I made it for my own use. (Not official)",
+	"icons": {
+		"48": "256.png",
+		"256": "256.png"
+	},
+	"browser_action": {
+		"default_icon": "256.png",
+		"default_title": "Open in new tab"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	}
+}
